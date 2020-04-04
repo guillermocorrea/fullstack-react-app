@@ -8,9 +8,17 @@
     "start": "webpack",
     "dev": "webpack-dev-server --open"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "fullstack",
+    "express",
+    "mongodb"
+  ],
+  "author": "Luis Correa",
+  "repository": {
+    "url": "https://github.com/guillermocorrea/fullstack-react-app"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/node": "^7.8.7",

@@ -8,7 +8,5 @@ export function* taskCreationSaga() {
     const ownerId = 'U1';
     const taskId = uuidv4();
     yield put(mutations.createTask(taskId, groupId, ownerId));
-
-    console.log('Got groupId', groupId);
   }
 }

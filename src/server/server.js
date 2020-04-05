@@ -15,7 +15,7 @@ app.use(cors(), bodyParser.urlencoded({ extended: false }), bodyParser.json(), m
 authenticationRoute(app);
 
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.resolve(__dirname, '../../dist')));
+  app.use(express.static(path.resolve(__dirname, 'public')));
   app.get('/*', (req, res) => {
     res.sendFile(path.resolve('index.html'));
   });

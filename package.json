@@ -34,7 +34,7 @@
     "concurrently": "^5.1.0",
     "redux-devtools-extension": "^2.13.8",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.10.3",
     "webpack-node-externals": "^1.7.2"
   },
